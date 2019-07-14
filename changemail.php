@@ -30,8 +30,6 @@ function setNewPassword( $strMailbox, $strPassword ) {
 }
 
 function outputValidateNotice( $noError ) {
-  $status = $noError ? "success" : "danger";
-
   $html = '<div class="alert alert-' . ( $noError ? 'success' : 'danger' ) . '" role="alert">';
 
   if ( $noError ) {

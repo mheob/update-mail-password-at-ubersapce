@@ -54,7 +54,7 @@ defined('MAIL_HOST') || die("No direct access!");
                   aria-label="Mail"
                 />
                 <div class="input-group-append">
-                  <span class="input-group-text"><?php echo MAIL_HOST; ?></span>
+                  <span class="input-group-text">@<?php echo MAIL_HOST; ?></span>
                 </div>
                 <div class="invalid-feedback"></div>
               </div>
@@ -129,7 +129,7 @@ defined('MAIL_HOST') || die("No direct access!");
             Dieses Script basiert auf <a href="https://gist.github.com/nichdu/9047330">changemail.php</a>von Tjark 'nichdu' Saul.
           </p>
           <p class="text-muted text-center text-lg-right">
-            Bei Rückfragen steht Dir <a href="mailto:postmaster<?php echo MAIL_HOST; ?>?subject=[<?php echo $inputValues["mail"]; ?>] Probleme mit Resetten von meinem Mail-Passwort">Dein Administrator</a> gerne zur Verfügung.
+            Bei Rückfragen steht Dir <a href="mailto:postmaster@<?php echo MAIL_HOST; ?>?subject=[<?php echo $inputValues["mail"]; ?>] Probleme mit Resetten von meinem Mail-Passwort">Dein Administrator</a> gerne zur Verfügung.
           </p>
         </div>
       </div>

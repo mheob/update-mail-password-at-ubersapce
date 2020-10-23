@@ -5,7 +5,7 @@ if ( $_SERVER['HTTPS'] != 'on' ) {
   exit();
 }
 
-const MAIL_HOST = "example.com"; //! TODO: please update
+define( 'MAIL_HOST', $_SERVER['SERVER_NAME'] );
 
 function setNewPassword( $strMailbox, $strPassword ) {
   $strPassword = utf8_decode( $strPassword );

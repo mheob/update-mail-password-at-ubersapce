@@ -40,7 +40,7 @@ defined('MAIL_HOST') || die("No direct access!");
 
           <?php echo $validateNotice ?>
 
-          <form action="changemail.php?gotData=true" method="post">
+          <form action="index.php?gotData=true" method="post">
             <div class="form-group mb-3">
               <label for="mail">Mail</label>
               <div class="input-group">
@@ -126,7 +126,7 @@ defined('MAIL_HOST') || die("No direct access!");
           </form>
 
           <p class="text-muted text-center text-lg-right">
-            Dieses Script stammt von Alexander Böhm und kann auf <a href="https://github.com/mheob/update-mail-password-at-ubersapce">Github</a> gefunden werden.
+            Dieses Script stammt von <a href="https://github.com/mheob/">Alexander Böhm</a> und kann auf <a href="https://github.com/mheob/update-mail-password-at-ubersapce">Github</a> gefunden werden.
           </p>
           <p class="text-muted text-center text-lg-right">
             Bei Rückfragen steht Dir <a href="mailto:postmaster@<?php echo MAIL_HOST; ?>?subject=[<?php echo $inputValues["mail"]; ?>] Probleme mit Resetten von meinem Mail-Passwort">Dein Administrator</a> gerne zur Verfügung.

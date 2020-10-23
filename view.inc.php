@@ -126,7 +126,7 @@ defined('MAIL_HOST') || die("No direct access!");
           </form>
 
           <p class="text-muted text-center text-lg-right">
-            Dieses Script basiert auf <a href="https://gist.github.com/nichdu/9047330">changemail.php</a>von Tjark 'nichdu' Saul.
+            Dieses Script stammt von Alexander Böhm und kann auf <a href="https://github.com/mheob/update-mail-password-at-ubersapce">Github</a> gefunden werden.
           </p>
           <p class="text-muted text-center text-lg-right">
             Bei Rückfragen steht Dir <a href="mailto:postmaster@<?php echo MAIL_HOST; ?>?subject=[<?php echo $inputValues["mail"]; ?>] Probleme mit Resetten von meinem Mail-Passwort">Dein Administrator</a> gerne zur Verfügung.

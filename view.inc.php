@@ -35,7 +35,7 @@ defined('MAIL_HOST') || die("No direct access!");
   <body>
     <main class="container-fluid">
       <div class="row justify-content-center">
-        <div class="col-lg-8">
+        <div class="col-lg-6">
           <h1 class="text-center mb-5 mt-3">Mail-Passwort ändern</h1>
 
           <?php echo $validateNotice ?>
